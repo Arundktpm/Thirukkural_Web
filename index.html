@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ta">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📝 திருக்குறள்</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- heading page -->
+    <header id="home">
+        <h2>திருக்குறள்</h2>
+        <p class="story"> “1330 குறள்களில் மனித வாழ்வை வழிநடத்தும் உலகப் புகழ் தமிழ் நூல் - திருக்குறள்.”</p>
+        <bdi class="hint">Scroll Down</bdi>
+        <img src="Assets/heder_bgn.jpg" alt="header_bg_img">
+    </header>
+
+    <!-- navigation bar page -->
+    <!-- navigation bar Mobile page-->
+    <div class="controll-menubox">
+        <div class="box "></div>
+        <div class="box "></div>
+        <div class="box "></div>
+    </div>
+    <!-- navigation page menu links -->
+    <nav class="nav_bar">
+        <img src="Assets/Valluvar_icon.png" alt="thiruvalluvar_logo">
+        <menu>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#kurals">Kurals</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Thiruvalluvar" target="_blank">Article</a></li>
+            <li><a href="#about">About</a></li>
+        </menu>
+    </nav>
+
+    <!-- kural content page -->
+    <div class="content-container" id="kurals">
+        <!-- kural tags searching..  -->
+        <section class="search_tags">
+            <label>Tags:</label>
+            <div class="tags-box" id="Tagbtn">
+                <button type="button" value="paal-id1">அறத்துப்பால்</button>
+                <button type="button" value="paal-id2">பொருட்பால்</button>
+                <button type="button" value="paal-id3">காமத்துப்பால்</button>
+                <button type="button" value="kura-id-all">குறள்கள்</button>
+                <button type="button" value="random-atikaaram">Random அதிகாரம்</button>
+            </div>
+        </section>
+        <!-- kurals showcase pannel  -->
+        <section class="kural-container-main" id="mainpannel">
+            <div class="errorMsg" id="Problem">API server busy!</div>
+        </section>
+    </div>
+
+    <!-- about thiruvalluvar -->
+    <div class="About" id="history">
+        <div class="image-card">
+            <div class="image-box">
+                <img src="Assets/Valluvar_Hist_1.jpg" alt="thiruvalluvar_image">
+                <img src="Assets/valluvar_Hist_2.jpg" alt="thiruvalluvar_image">
+            </div>
+            <figcaption><q>தமிழின் உயரிய அறவொளி - திருவள்ளுவர்</q></figcaption>
+        </div>
+        <!-- Story about thiruvalluvar -->
+        <div class="content">
+            <blockquote class="About_content">
+                திருவள்ளுவர் உலகப் புகழ்பெற்ற திருக்குறள் என்னும் அறநூலின் ஆசிரியர். மனித வாழ்வின் அடிப்படை மதிப்புகளான
+                அறம், பொருள், இன்பம் ஆகியவற்றை 1330 குறள்களில் எளிய சொற்களில் எடுத்துரைத்தவர். அவரது கருத்துகள் காலம்,
+                மொழி, மதம் ஆகிய எல்லைகளைத் தாண்டி இன்று வரை மனித வாழ்விற்கு வழிகாட்டுகின்றன.இந்நூலில் 133 அதிகாரங்கள்
+                உள்ளன அதில் அறத்துப்பால் 38 அதிகாரமும், பொருட்பால் 70 அதிகாரமும், காமத்துப்பால் 25 அதிகாரம் என்று 10
+                குறளினுக்கு ஒரு அதிகாரமாக அமைக்கப்பட்டுள்ளது.
+                திருவள்ளுவரது இயற்பெயர்,வாழ்ந்த இடம் உறுதியாகத் தெரியவில்லை எனினும் அவர் பொ.ஊ.மு.
+                முதல் நூற்றாண்டில், தற்போதைய சென்னை நகரில் உள்ள, மயிலாப்பூரில் வாழ்ந்து வந்தார் என்று தமிழக அரசு
+                அறிவித்துள்ளது.
+            </blockquote>
+        </div>
+    </div>
+
+    <!-- About Us footer page-->
+    <footer class="site-footer" id="about">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p> Java & Web Developer passionate about<br>building practical and user-friendly applications.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: <a href="mailto:arundtpm7410@gmail.com"><bdi>✉</bdi> arundtpm7410@gmail.com</a></p>
+                <p>Phone: <a href="tel:+919787400349"><bdi>☎</bdi> +91-9787400349</a></p>
+            </div>
+            <!-- additional links -->
+            <div class="footer-section">
+                <h4>Excess Links</h4>
+                <a href="https://arundktpm.github.io/TaskBuddy_web_APP/" target="_blank">TaskBuddy</a>
+            </div>
+            <div class="footer-section">
+                <h4>Social Links</h4>
+                <div class="footer-social-link">
+                    <a href="https://github.com/Arundktpm" class="github" title="GitHub" target="_blank"></a>
+                    <a href="https://www.linkedin.com/in/arun-d-783a42323/" class="linkedin" title="LinkedIn"
+                        target="_blank"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Thirukkural Website. All rights reserved.</p>
+            <p>💻 developed by Arun D.</p>
+        </div>
+    </footer>
+    <!-- javaScript code -->
+    <script src="script.js"></script>
+</body>
+
+</html>
